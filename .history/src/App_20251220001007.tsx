@@ -16,8 +16,8 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<DarkThemePage />} />
-          <Route path="/1" element={<Index />} />
+          <Route path="/" element={<Index />} />
+          <Route path="/1" element={<DarkThemePage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
