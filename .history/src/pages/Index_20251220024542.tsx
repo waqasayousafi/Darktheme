@@ -248,11 +248,7 @@ const Index = () => {
           variant="secondary"
           className="flex-1 h-12 text-sm font-bold flex items-center justify-center"
         >
-          <img
-            src="/draft.png"
-            alt="Draft"
-            className="w-5 h-5 -mr-1 brightness-0 invert"
-          />
+          <img src="/draft.png" alt="Draft" className="w-5 h-5 -mr-1 brightness-0 invert" />
           Drafts
         </Button>
         <Button className="flex-1 h-12 bg-primary hover:bg-primary/90 text-primary-foreground text-sm font-normal flex items-center justify-center">
